@@ -1,4 +1,5 @@
 from entities import user
 class Bank():
-    def __init__(self, users = []) -> None:
+    users = []
+    def __init__(self, users):
         self.users = users
